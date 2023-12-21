@@ -1,0 +1,67 @@
+   
+
+
+ 1) ====> utilisation de la commande DROP TABLE in sql pour suprimier une table 
+  
+ 2) ====> utilisation de commande TRUNCATE TABLE in sql pour suprimier data inside in table
+
+ 3) ====> ALTER table PAYMENT ADD hichem VARchar(255); hadi nkhdmo biha bah nzido colone ou  n9dro f placet add ndir drop wela set wela update ...
+
+ 4) ====> INSERT INTO PAYMENT VALUES () , wela m9dro nprecisco colums lnensiro fiha INSERT INTO PAYMENT (Payment_number) values (23);
+
+ 5) ====> UPDATE  PAYMENT  SET  hichem = 'ikram' WHERE Load_number =23; pour update valeur in tbale (hichem hya column)
+
+ 6) ====> DELET FROM tablename where column = "name" ; delete row in tableau 
+
+ 7) ====> creat table bilel(hichen integer not null) hena not null bah mat9drch taccepti haja fargha
+
+ 8) ====> creat table bilel(hichen integer uniaque) hena unique bah mat9drch ykono value kif kif  
+
+ 9) ====>   CONSTRAINT uc_person UNIQUE (lastname, id) hadi ndiroha f craeation de table nst3mloha bah ndiro combainaison bin 2 colone donc 2 coloum hadok mayt3awdoch exemple (id =2 , lastname = bilel) hena mat9drch tl9a row fiha haka mais t9der tl9a haka (id = 2,lastname = hcihem)
+
+ 10) ====>   primary key ykon unique ou maykonch null ou n9dro ndiroh constraint bilel primary key (hichem,lakhmi)
+
+
+ 11) ====>  id INTEGER PRIMARY KEY AUTOINCREMENT, hena autoincrement m3ntha bla mat3mer nta id yt3mer whdo et chaque insertion ytcrementa 
+
+
+ 12) ====>  super cle hwa est un ensemble d'une ou plusieurs colonnes exmple {id,name,prenom} da hwa supercle ou condidat cle hwa cle minimal lt9der diro
+
+
+ 13) ====>   en SQL. Foreign Key hwa   Une cle etrangers  FOREIGN KEY (DepartmentID) REFERENCES Departements(DepartmentID)
+
+
+ 13) ====> La clause GROUP BY permet de regrouper un ensemble de tuples qui
+ont la même valeur dans les colonnes mentionnées
+
+
+ 14) ====> La Clause HAVING <Condition>permet de construire des groupes en
+utilisant une propriété du groupe lui-même
+
+
+ 15) ====> Les vues en SQL sont des objets de base de données qui ne stockent pas de données physiques. Au lieu de cela, elles fournissent une représentation virtuelle des données extraites à partir d'une ou plusieurs tables existantes
+
+CREATE VIEW VueEmployes AS
+SELECT nom, prenom
+FROM Employes;
+
+
+CREATE VIEW VueEmployes AS
+SELECT nom, prenom
+FROM Employes;
+
+
+ 16) ====>case statment in sql : CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    ...
+    ELSE default_result
+END
+
+
+ 17) ====> select * from table1,table2 hya equivalent ta3 produit cartisien
+
+
+
+
+ 
